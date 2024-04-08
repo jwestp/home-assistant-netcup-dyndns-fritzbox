@@ -1,0 +1,23 @@
+name: "Netcup DynDNS for FRITZ!Box"
+description: "A Netcup DynDNS Proxy for FRITZ!Box deployed as a Home Assistant addon"
+image: jwestp/netcup-dyndns-fritzbox
+version: "0.1.0"
+slug: "netcup-dyndns-fritzbox"
+arch:
+  - aarch64
+  - amd64
+  - armv7
+startup: application
+init: false
+ports:
+  8000/tcp: 8000
+options:
+  netcupCustomerNumber: null
+  netcupApiKey: null
+  netcupApiPassword: null
+  fritzBoxApiPassword: null
+schema:
+  netcupCustomerNumber: int
+  netcupApiKey: password
+  netcupApiPassword: password
+  fritzBoxApiPassword: password

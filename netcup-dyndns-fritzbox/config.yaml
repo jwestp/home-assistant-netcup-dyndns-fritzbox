@@ -1,7 +1,7 @@
 name: "Netcup DynDNS for FRITZ!Box"
 description: "A Netcup DynDNS Proxy for FRITZ!Box deployed as a Home Assistant addon"
 image: jwestp/netcup-dyndns-fritzbox
-version: "0.1.0"
+version: "0.2.0"
 slug: "netcup-dyndns-fritzbox"
 arch:
   - aarch64

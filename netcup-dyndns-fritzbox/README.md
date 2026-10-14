@@ -27,4 +27,6 @@ The following configuration properties need to be set:
 |Domainname|Your domain name, e.g. `example.com`|
 |Benutzername|Not used by the web service|
 |Kennwort|Password set via `fritzBoxApiPassword` variable|
-|Update-URL|Update URL with placeholders that will be substituted by the FRITZ!Box: `homeassistant.local:8000/update?domain_name=<domain>&ipv4=<ipaddr>&password=<pass>`|
+|Update-URL|Update URL with placeholders that will be substituted by the FRITZ!Box: `homeassistant.local:8000/update?domain_name=<domain>&ipv4=<ipaddr>&ipv6=<ip6addr>&password=<pass>`|
+
+Both `ipv4` and `ipv6` can be used together, as in the example above. You can also omit one of them; at least one is required.
